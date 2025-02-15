@@ -7,9 +7,9 @@ import Pictures from './pictures';
 const App = () => (
   <Provider store={store}>
     <>
+      <h2>Catstagram !</h2>
       <Counter />
       <Pictures />
-      <div>Hello World ! Go to build your Catstagram 💪 !</div>
     </>
   </Provider>
 );
